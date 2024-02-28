@@ -1,53 +1,53 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { FingerPrintIcon, ComputerDesktopIcon, BriefcaseIcon, AcademicCapIcon, TrophyIcon, TicketIcon, SwatchIcon, HeartIcon, ArrowRightEndOnRectangleIcon } from '@heroicons/react/24/outline'
 
 const features = [
     {
         name: 'Estrutura completa de portfólio de produtos para venda',
         description:
             'Estrutura completa de portfólio de produtos para venda',
-        icon: CloudArrowUpIcon,
+        icon: SwatchIcon,
     },
     {
         name: 'Treinamento com 4 encontros e acompanhamento do Líder dos Embaixadores',
         description:
             'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-        icon: LockClosedIcon,
+        icon: AcademicCapIcon,
     },
     {
         name: 'Suporte para acolhimento do paciente para início de tratamento',
         description:
             'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-        icon: ArrowPathIcon,
+        icon: HeartIcon,
     },
     {
-        name: 'Acesso a plataforma de Embaixadores Tap Afiliate para gerenciamento de comissões',
+        name: 'Acesso a plataforma de Embaixadores para gerenciamento de comissões',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: FingerPrintIcon,
+        icon: ComputerDesktopIcon,
     },
     {
         name: 'Acesso a conteúdo, eventos e promoções exclusivas da empresa',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: FingerPrintIcon,
+        icon: BriefcaseIcon,
     },
     {
         name: 'Cupom de desconto para você e para seus clientes (Consultas e Produtos)',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: FingerPrintIcon,
+        icon: TicketIcon,
     },
     {
         name: 'Kit de boas vindas: Flyers, uniformes (boné, camisa), adesivo com cupom e desconto de 30% nos produtos para uso pessoal',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: FingerPrintIcon,
+        icon: ArrowRightEndOnRectangleIcon,
     },
     {
         name: 'Premiações para os melhores embaixadores mensalmente',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: FingerPrintIcon,
+        icon: TrophyIcon,
     },
 ]
 
@@ -66,7 +66,7 @@ export default function BeneficiosEmbaixadores() {
                     <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
                         {features.map((feature) => (
                             <div key={feature.name} className="relative pl-16">
-                                <div className="text-base leading-7 text-gray-900">
+                                <div className="text-base font-bold leading-7 text-gray-900">
                                     <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-600">
                                         <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                                     </div>

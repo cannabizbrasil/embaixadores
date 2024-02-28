@@ -5,13 +5,14 @@ import Image from 'next/image'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import BotaoLoginEmbaixadores from './botaoLoginEmbaixadores'
 
 
 const navigation = [
-    { name: 'Embaixadores', href: '/embaixadores' },
+    { name: 'Seja um Embaixador', href: '/' },
     { name: 'Influenciadores', href: 'https://influenciadores.lojacannabis.com' },
     { name: 'Seja um Dispensário', href: 'https://dispensarios.lojacannabis.com' },
-    { name: 'Treinamento', href: 'https://treinamento.lojacannabis.com' },
+    { name: 'Treinamento', href: '/treinamento' },
     { name: 'Contato', href: '/contato' },
 ]
 
@@ -22,9 +23,9 @@ export default function NavBar() {
     return (
         <div className="fixed top-0 left-0 right-0 z-50">
             <header className="absolute bg-gray-50 opacity-95 inset-x-0 top-0">
-                <nav className="flex items-center justify-between p-2 lg:px-6" aria-label="Top">
+                <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Top">
                     <div className="flex lg:flex-1">
-                        <Link href="/" >
+                        <Link href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">CannaMed Medicinal</span>
                             <div>
                                 <Image
@@ -55,7 +56,9 @@ export default function NavBar() {
                             </Link>
                         ))}
                     </div>
-                    <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <div className="hidden lg:flex lg:flex-1 gap-4 lg:justify-end">
+                        <BotaoLoginEmbaixadores />
+
 
                     </div>
                 </nav>
@@ -65,13 +68,13 @@ export default function NavBar() {
                     <div className="fixed inset-0 z-50" />
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
                         <div className="flex items-center justify-between">
-                            <Link href="/" >
+                            <Link href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">CannaMed</span>
                                 <Image
                                     className="h-20 w-auto"
                                     src="/logotipo-embaixadores.png"
                                     alt="Embaixadores LojaCannabis Logo"
-                                    width={400}
+                                    width={234.5}
                                     height={62}
                                     priority
                                 />
@@ -98,7 +101,9 @@ export default function NavBar() {
                                         </Link>
                                     ))}
                                 </div>
-
+                                <div className="py-6 gap-y-2">
+                                    <BotaoLoginEmbaixadores />
+                                </div>
                             </div>
                         </div>
                     </Dialog.Panel>

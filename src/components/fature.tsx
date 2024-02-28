@@ -1,4 +1,4 @@
-import { CalendarDaysIcon, CheckBadgeIcon, ClipboardDocumentCheckIcon, InboxIcon, ShoppingCartIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
+import { CalendarDaysIcon, CheckBadgeIcon, ClipboardDocumentCheckIcon, InboxIcon, MapIcon, ShoppingCartIcon, TrashIcon, UserIcon, UsersIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import BotaoComecarEmbaixadores from './botaoComecarEmbaixadores'
 
@@ -10,7 +10,7 @@ const features = [
         href: '#',
         number: '01',
         button: 'Agende sua Consulta',
-        icon: CalendarDaysIcon,
+        icon: MapIcon,
     },
 
     {
@@ -29,17 +29,17 @@ const features = [
         href: '#',
         number: '04',
         button: 'Saiba onde comprar',
-        icon: ShoppingCartIcon,
+        icon: UserIcon,
     },
 ]
 
 export default function Fature() {
     return (
-        <div className="bg-green-50 py-16 sm:py-16">
+        <div className="bg-gradient-to-r from-green-400 to-lime-400 py-16 sm:py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-green-800">COMECE AGORA</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                         Fature mais de R$30.000,00 por mês em um dos mercados que mais cresce no mundo.
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -49,7 +49,7 @@ export default function Fature() {
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
                     <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                         {features.map((feature) => (
-                            <div key={feature.name} className="flex flex-col border border-slate-200 hover:bg-green-100 hover:border-green-300 p-10 rounded-lg hover:scale-105 transition duration-700 ease-in-out">
+                            <div key={feature.name} className="flex flex-col border border-slate-200 bg-green-50 hover:bg-green-100 hover:border-green-300 p-10 rounded-lg hover:scale-105 transition duration-700 ease-in-out">
 
                                 <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-green-700">
                                     <feature.icon className="h-6 w-6 text-white" />

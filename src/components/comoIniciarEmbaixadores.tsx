@@ -42,7 +42,7 @@ export default function ComoIniciarEmbaixadores() {
 
                             <div className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                                 {features.map((feature) => (
-                                    <div key={feature.name} className="relative pl-9">
+                                    <div key={feature.name} className="relative pl-14">
                                         <div className="inline font-semibold text-gray-900">
                                             <div className="absolute left-0 top-1 text-2xl text-green-600">
                                                 {feature.number}
@@ -68,7 +68,7 @@ export default function ComoIniciarEmbaixadores() {
                                     alt="Product screenshot"
                                     width={450}
                                     height={500}
-                                    className="rounded-tl-4xl rounded-br-4xl mx-auto"
+                                    className="rounded-tl-4xl rounded-br-4xl mx-auto shadow-2xl shadow-green-500/50"
 
                                 />
                             </div>

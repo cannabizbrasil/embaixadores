@@ -46,7 +46,7 @@ const navigation = {
             href: 'https://twitter.com/soucannamed',
             icon: () => (
                 <svg fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                    <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
                 </svg>
             ),
         },
@@ -56,7 +56,7 @@ const navigation = {
 
 export default function Footer() {
     return (
-        <footer className="bg-green-50" aria-labelledby="footer-heading">
+        <footer className="bg-green-900" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
@@ -71,30 +71,31 @@ export default function Footer() {
                             height={62}
                             priority
                         />
-                        <p className="text-sm leading-6 text-gray-600">
+                        <p className="text-sm leading-6 text-white">
                             Programa de embaixadores para empreenderem com Cannabis medicinal no Brasil de forma legal e segura. O mercado de cannabis no mundo tem crescido a cada dia e no Brasil não será diferente. Poucas pessoas sabem o caminho para explorar e ganhar dinheiro no mercado de cannabis no Brasil de forma legal e nós somos essas
                             pessoas.
                         </p>
-                        <div className="flex space-x-6">
-                            {navigation.social.map((item) => (
-                                <Link key={item.name} href={item.href} className="text-green-700 hover:text-green-900 hover:scale-125 transition duration-700 ease-in-out">
-                                    <span className="sr-only">{item.name}</span>
-                                    <div className="h-8 w-8">
-                                        <item.icon aria-hidden="true" />
-                                    </div>
-                                </Link>
-                            ))}
-                        </div>
+
+                    </div>
+                    <div className="flex space-x-6 mx-auto my-auto">
+                        {navigation.social.map((item) => (
+                            <Link key={item.name} href={item.href} className="text-white hover:text-green-300 hover:scale-125 transition duration-700 ease-in-out">
+                                <span className="sr-only">{item.name}</span>
+                                <div className="h-10 w-10">
+                                    <item.icon aria-hidden="true" />
+                                </div>
+                            </Link>
+                        ))}
                     </div>
 
                 </div>
 
-                <div className=" border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+                <div className=" border-t border-green-200/10 pt-8 sm:mt-20 lg:mt-24">
 
                     <div className="md:flex md:items-center md:justify-between">
                         <div className="flex justify-center space-x-6 md:order-2">
                             {navigation.main.map((item) => (
-                                <div key={item.name} className="text-gray-600 text-xs hover:text-gray-800">
+                                <div key={item.name} className="text-gray-100 text-xs hover:text-gray-300">
                                     <Link href={item.href}>
                                         {item.name}
                                     </Link>
@@ -102,7 +103,7 @@ export default function Footer() {
                             ))}
                         </div>
                         <div className="mt-8 md:order-1 md:mt-0">
-                            <p className="text-center text-xs leading-5 text-gray-600">
+                            <p className="text-center text-xs leading-5 text-gray-100">
                                 Copyright ©2023 Cannamed – Cannabis Medicinal. Todos os direitos reservados.
                             </p>
                         </div>
