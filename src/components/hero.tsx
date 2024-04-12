@@ -49,7 +49,7 @@ export default function Hero() {
                         </p>
                         <div className="mt-10 flex items-center gap-x-6">
                             <BotaoComecarEmbaixadores />
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                            <a href="#" className="text-sm font-semibold leading-6 text-white">
                                 Saiba Mais <span aria-hidden="true">→</span>
                             </a>
                         </div>
