@@ -17,7 +17,20 @@ const config: Config = {
       borderRadius: {
         '4xl': '5rem',
       },
+      colors: {
+        'roxo': '#871c86', // roxo
+        'verde': '#00ff01', // verde
+        'laranja': '#ff9201', // laranja
+        'azul': '#0085ca', // azul
+        'azulclaro': '#12ffcb' // azulclaro
+      }
     },
+    strokeWidth: {
+      '4': '4px',
+      'medio': '100px',
+      'largo': '200px',
+
+    }
   },
   plugins: [],
 }

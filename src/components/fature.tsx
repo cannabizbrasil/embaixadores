@@ -4,7 +4,7 @@ import BotaoComecarEmbaixadores from './botaoComecarEmbaixadores'
 
 const features = [
     {
-        name: 'O que é o programa ?',
+        name: 'Empreendedores',
         description:
             'Criado para ajudar pessoas que fazem uso da cannabis a comprarem de forma 100% legal, com preço acessível e ainda poderem viver trabalhando com cannabis no Brasil.',
         href: '#',
@@ -14,7 +14,7 @@ const features = [
     },
 
     {
-        name: 'Por que devo participar ?',
+        name: 'Pacientes',
         description:
             'É um mercado que vai movimentar x bilhões no Brasil, isso já aconteceu fora daqui e chegou a nossa vez. Poucas pessoas sabem o caminho para e ganhar dinheiro no mercado de cannabis no Brasil de forma legal e nós vamos te ajudar com todas as etapas.',
         href: '#',
@@ -23,7 +23,25 @@ const features = [
         icon: CheckBadgeIcon,
     },
     {
-        name: 'Para quem é ?',
+        name: 'Influenciadores',
+        description:
+            'Esse é um programa para pessoas que acreditam na cannabis, no seu potencial medicinal e comercial. Criado para empreendedores, pacientes, influenciadores, ativistas e profissionais da área da saúde.',
+        href: '#',
+        number: '04',
+        button: 'Saiba onde comprar',
+        icon: UserIcon,
+    },
+    {
+        name: 'Ativistas',
+        description:
+            'Esse é um programa para pessoas que acreditam na cannabis, no seu potencial medicinal e comercial. Criado para empreendedores, pacientes, influenciadores, ativistas e profissionais da área da saúde.',
+        href: '#',
+        number: '04',
+        button: 'Saiba onde comprar',
+        icon: UserIcon,
+    },
+    {
+        name: 'Profissionais da saúde',
         description:
             'Esse é um programa para pessoas que acreditam na cannabis, no seu potencial medicinal e comercial. Criado para empreendedores, pacientes, influenciadores, ativistas e profissionais da área da saúde.',
         href: '#',
@@ -35,40 +53,34 @@ const features = [
 
 export default function Fature() {
     return (
-        <div className="bg-gradient-to-r from-green-400 to-lime-400 py-16 sm:py-16">
+        <div className="py-16 sm:py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl lg:text-center">
-                    <h2 className="text-base font-semibold leading-7 text-green-800">COMECE AGORA</h2>
-                    <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Fature mais de R$30.000,00 por mês em um dos mercados que mais cresce no mundo.
+                <div className="mx-auto max-w-4xl lg:text-center">
+                    <h2 className="text-base font-semibold leading-7 text-azul">COMECE AGORA</h2>
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                        Trazemos uma oportunidade única para quem sempre pensou em empreender no mercado de saúde, qualidade e Cannabis.
                     </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Seja embaixador da Loja Cannabis e Inicie a sua Jornada.
+                    <p className="mt-6 text-2xl leading-8 text-white">
+                        Poucas empresas brasileiras sabem o caminho 100% legal para empreender no mercado de Cannabis. Nosso programa de embaixadores é para pessoas que acreditam na cannabis, no seu potencial medicinal e comercial.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                    <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                    <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
                         {features.map((feature) => (
-                            <div key={feature.name} className="flex flex-col border border-slate-200 bg-green-50 hover:bg-green-100 hover:border-green-300 p-10 rounded-lg hover:scale-105 transition duration-700 ease-in-out">
-
-                                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-green-700">
-                                    <feature.icon className="h-6 w-6 text-white" />
+                            <div key={feature.name} className="flex flex-col bg-laranja p-6 rounded-2xl">
+                                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-roxo">
+                                    <feature.icon className="h-6 w-6 text-verde" />
                                 </div>
-                                <div className="flex items-center gap-x-3 text-2xl font-semibold leading-7 text-gray-900">
+                                <div className="flex items-center gap-x-3 text-3xl font-semibold leading-7 text-gray-900">
                                     {feature.name}
                                 </div>
-                                <div className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                                    <p className="flex-auto">{feature.description}</p>
 
-                                </div>
                             </div>
                         ))}
                     </div>
                 </div>
                 <div className="flex justify-center py-16">
-
                     <BotaoComecarEmbaixadores />
-
                 </div>
             </div>
         </div>
