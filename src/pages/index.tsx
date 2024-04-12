@@ -8,6 +8,7 @@ import BeneficiosEmbaixadores from '@/components/beneficiosEmbaixadores'
 import Depoimentos from '@/components/depoimentos'
 import FormularioEmbaixador from '@/components/formulario'
 import CtaEmbaixadores from '@/components/ctaEmbaixadores'
+import Comunidade from '@/components/comunidade'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function Embaixadores() {
                 <Produtos />
 
                 <Depoimentos />
+                <Comunidade />
                 <FormularioEmbaixador />
 
             </main>

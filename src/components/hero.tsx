@@ -41,7 +41,7 @@ export default function Hero() {
 
                             </a>
                         </div>
-                        <h1 className="mt-10 text-4xl font-bold tracking-tight leading-10 text-white sm:text-6xl">
+                        <h1 className="mt-10 text-4xl font-bold leading-relaxed text-white sm:text-6xl">
                             EMPREENDA NO MERCADO CANÁBICO DE FORMA 100% LEGAL
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-white">
