@@ -47,7 +47,7 @@ export default function ComoIniciarEmbaixadores() {
         <div className="relative isolate overflow-hidden bg-laranja py-24 lg:py-44">
             <div>
                 <div className="absolute inset-0  -z-10 ">
-                    <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 1480" className="stroke-medio fill-none stroke-verde "
+                    <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1850 1480" className="stroke-medio fill-none stroke-verde "
                         aria-hidden="true">
                         <path d="M498.47,1176.28c0-64.04-27.57-118.26-88.23-161.27-43.33-30.72-92.38-21.58-149.18-10.99-39.85,7.43-81.06,15.11-121.73,7.53-49.8-9.29-87.94-38.99-116.58-90.79-14.98-27.09-22.47-55.46-22.26-84.31.19-25.55,6.19-51.21,18.34-78.42,20.43-45.75,54.87-88.26,91.33-133.26,89.62-110.62,174.26-215.1,74.16-373.89-27.29-43.29-14.53-75.86-4.49-91.41,20.62-31.96,59.72-49.33,132.55-71.02,37.09-11.04,91.84-43.65,91.84-88.44" />
                     </svg>
