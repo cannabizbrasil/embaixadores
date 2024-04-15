@@ -34,33 +34,34 @@ const testimonials = [
 
 export default function Depoimentos() {
     return (
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white py-24 sm:py-48">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-xl text-center">
-                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-laranja">DEPOIMENTOS</h2>
+                <div className="mx-auto max-w-2xl text-center">
+                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-roxo">DEPOIMENTOS</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                         Veja o que dizem nossos clientes
                     </p>
                 </div>
-                <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-                    <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-                        {testimonials.map((testimonial) => (
-                            <div key={testimonial.author.handle} className="pt-8 sm:inline-block sm:w-full sm:px-4">
-                                <figure className="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
-                                    <blockquote className="text-gray-900">
-                                        <p>{`“${testimonial.body}”`}</p>
-                                    </blockquote>
-                                    <figcaption className="mt-6 flex items-center gap-x-4">
-                                        <Image className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" width="200" height="200" />
-                                        <div>
-                                            <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
-                                            <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-12 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    {testimonials.map((testimonial) => (
+                        <article key={testimonial.author.handle} className="flex flex-col items-start justify-between">
+                            <div className="max-w-xl">
+                                <div className="group relative">
+                                    <p className="mt-5 text-lg leading-6 text-gray-600">{testimonial.body}</p>
+                                </div>
+                                <div className="relative mt-8 flex items-center gap-x-4">
+                                    <Image src={testimonial.author.imageUrl} alt="" width="100" height="100" className="h-10 w-10 rounded-full bg-gray-100" />
+                                    <div className="text-sm leading-6">
+                                        <p className="font-semibold text-gray-900">
+                                            <span className="absolute inset-0" />
+                                            {testimonial.author.name}
+                                        </p>
+                                        <p className="text-gray-600">{`@${testimonial.author.handle}`}</p>
+                                    </div>
+                                </div>
                             </div>
-                        ))}
-                    </div>
+                        </article>
+                    ))}
                 </div>
             </div>
         </div>

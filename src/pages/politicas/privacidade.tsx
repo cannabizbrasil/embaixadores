@@ -1,6 +1,4 @@
 import type { Metadata } from 'next'
-import NavBar from '@/components/navbar'
-import Footer from '@/components/footer'
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 
 
@@ -13,11 +11,6 @@ export default function Privacidade() {
 
     return (
         <main>
-
-
-
-
-
             <div className="bg-white px-6 py-32 lg:px-8">
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                     <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
@@ -76,7 +69,6 @@ export default function Privacidade() {
                             sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
                         </p>
                     </div>
-
                     <div className="mt-16 max-w-2xl">
                         <h2 className="text-2xl font-bold tracking-tight text-gray-900">Everything you need to get up and running</h2>
                         <p className="mt-6">
@@ -92,12 +84,6 @@ export default function Privacidade() {
                     </div>
                 </div>
             </div>
-
-
-
-
-
         </main>
-
     )
 }

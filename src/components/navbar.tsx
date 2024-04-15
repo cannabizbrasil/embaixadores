@@ -22,7 +22,7 @@ export default function NavBar() {
 
     return (
         <div className="fixed top-0 left-0 right-0 z-50">
-            <header className="absolute bg-gray-50 opacity-95 inset-x-0 top-0">
+            <header className="absolute bg-gray-50 inset-x-0 top-0">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Top">
                     <div className="flex lg:flex-1">
                         <Link href="/" className="-m-1.5 p-1.5">
@@ -58,8 +58,6 @@ export default function NavBar() {
                     </div>
                     <div className="hidden lg:flex lg:flex-1 gap-4 lg:justify-end">
                         <BotaoLoginEmbaixadores />
-
-
                     </div>
                 </nav>
 

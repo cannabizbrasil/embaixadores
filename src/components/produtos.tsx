@@ -43,7 +43,7 @@ export default function Produtos() {
                 </div>
                 <ul
                     role="list"
-                    className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
+                    className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
                 >
                     {products.map((product) => (
                         <div key={product.id}>
@@ -54,7 +54,7 @@ export default function Produtos() {
                                 height={400}
                                 alt=""
                             />
-                            <div className="text-lg font-bold text-roxo text-center">{product.name}</div>
+                            <div className="text-lg font-bold text-laranja text-center">{product.name}</div>
                         </div>
                     ))}
                 </ul>
