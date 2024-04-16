@@ -7,7 +7,7 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head />
-      <NavBar />
+
       <body>
         <Main />
         <NextScript />

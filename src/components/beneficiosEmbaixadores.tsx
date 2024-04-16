@@ -42,7 +42,7 @@ const features = [
 
 export default function BeneficiosEmbaixadores() {
     return (
-        <div className="relative isolate overflow-hidden bg-white">
+        <div className="relative isolate overflow-hidden bg-white" id="beneficios">
 
             <div className="absolute inset-0 left-28 -z-10 ">
 

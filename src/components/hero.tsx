@@ -1,23 +1,20 @@
 import Image from 'next/image'
 import BotaoComecarEmbaixadores from '@/components/botaoComecarEmbaixadores'
 import Fature from './fature'
+import NavBar from './navbar'
 
 
 
 export default function Hero() {
     return (
-        <div className="relative isolate overflow-hidden  bg-roxo">
+        <div className="relative isolate bg-roxo">
             <div>
                 <div className="absolute inset-0 flex items-center justify-center -z-10 mt-[-100vh]">
-                    <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1980 1490" className="absolute stroke-largo fill-none stroke-laranja w-full"
+                    <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1480" className="absolute stroke-largo fill-none stroke-laranja w-full h-full"
                         aria-hidden="true">
-
-                        <path className="cls-1" d="M6.23,788.68c60.16,3,147.62,24.59,245.48,58.96,68.91,24.2,172.23,70.42,344.26,199.77,259.16,194.86,242.05,196.71,363.26,273.56,53.88,34.16,251.72,76.03,360,2.89,138.68-93.66,155.13-200.01,153.64-309.54-2.08-152.1-61.17-285.25-49.32-402.52,3.94-39.05,30.34-256.47,217.7-390.05,104.97-74.84,233.29-103.99,328.82-95.24" />
+                        <path d="M0,668.12c60.84,0,148.83,24.79,247.5,59.45,69.48,24.4,173.65,71,347.09,201.41,261.29,196.46,244.04,198.33,366.25,275.81,54.32,34.44,253.79,76.66,362.96,2.91,139.82-94.43,156.41-201.66,154.9-312.09-2.1-153.35-61.67-287.6-49.73-405.83,3.97-39.37,30.59-258.58,219.49-393.26C1754.31,21.07,1882.7.5,1980,.5" />
                     </svg>
-
                 </div>
-
-
                 <div
                     className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
                     aria-hidden="true"
@@ -31,20 +28,19 @@ export default function Hero() {
                     />
                 </div>
 
+                <NavBar />
 
-                <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+                <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-32">
                     <div className="mx-auto max-w-3xl lg:mx-0 lg:max-w-3xl lg:flex-shrink-0 lg:pt-8">
-
                         <div className="mt-24 sm:mt-32 lg:mt-16">
                             <a href="#" className="inline-flex space-x-6">
-
                             </a>
                         </div>
-                        <h1 className="mt-10 text-4xl font-bold leading-relaxed text-white sm:text-6xl">
+                        <h1 className="text-4xl font-bold leading-relaxed text-white sm:text-6xl">
                             EMPREENDA NO MERCADO <span className="text-verde">CANÁBICO DE FORMA 100% LEGAL</span>
                         </h1>
-                        <p className="mt-6 text-lg leading-8 text-white">
-                            Torne-se embaixador e receba até 10% de comissão sobre suas vendas, descontos exclusivos em nossos produtos, participe de programas de premiações, além de receber todo suporte, treinamento e capacitação sobre o uso medicinal da cannabis e seus benefícios.
+                        <p className="mt-6 text-xl leading-8 text-white">
+                            Torne-se embaixador e receba comissão sobre suas vendas, descontos exclusivos em nossos produtos, treinamento e capacitação.
                         </p>
                         <div className="mt-10 flex items-center gap-x-6">
                             <BotaoComecarEmbaixadores />
