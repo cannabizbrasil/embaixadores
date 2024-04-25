@@ -104,7 +104,7 @@ export default function Footer() {
                         </div>
                         <div className="mt-8 md:order-1 md:mt-0">
                             <p className="text-center text-xs leading-5 text-gray-100">
-                                Copyright ©2023 Cannamed – Cannabis Medicinal. Todos os direitos reservados.
+                                Copyright ©2023 Loja Cannabis – Cannabis Medicinal. Todos os direitos reservados.
                             </p>
                         </div>
                     </div>
