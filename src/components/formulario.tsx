@@ -11,7 +11,7 @@ export default function FormularioEmbaixador() {
                     <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
                         <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidiven bg-roxo lg:w-1/2">
                         </div>
-                        <h2 className="text-5xl font-bold tracking-tight text-laranja">Junte-se ao time de <span className="text-verde">empreendedores que estão revolucionando o mercado</span> de Cannabis no Brasil.
+                        <h2 className="text-4xl font-bold tracking-tight text-laranja">Junte-se ao time de <span className="text-verde">empreendedores que estão revolucionando o mercado</span> de Cannabis no Brasil.
                         </h2>
                         <p className="text-xl mt-6 tracking-tight text-verde">Preenchar o formulário e inicie sua jornada no mercado da Cannabis.</p>
 

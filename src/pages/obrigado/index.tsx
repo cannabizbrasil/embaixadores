@@ -36,10 +36,10 @@ export default function Obrigado() {
                 <div className="mx-auto max-w-7xl py-16 ">
                     <div className="overflow-hidden bg-black rounded-3xl shadow-2xl">
                         <CldVideoPlayer
-                            id="Ansiedade_orijqo"
+                            id="embaixadores-italo-chamada_khrm7y"
                             width="500"
                             height="300"
-                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713381464/brazilian-boy-obrigado_bqqilp.mp4"
+                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1714070467/embaixadores-italo-chamada_khrm7y.mp4"
                             colors={{
                                 accent: '#84caeb', // barrinha que move
                                 base: '#8aef70', // barra inferior

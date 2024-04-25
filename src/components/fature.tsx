@@ -62,7 +62,7 @@ const features = [
 
 export default function Fature() {
     return (
-        <div className="py-16 sm:py-16">
+        <div className="py-16 sm:py-48 bg-roxo">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-azul">COMECE AGORA</h2>
@@ -74,7 +74,7 @@ export default function Fature() {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                    <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-12 lg:max-w-none lg:gap-y-16 lg:grid-cols-3">
+                    <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none  lg:grid-cols-3">
                         {features.map((feature) => (
                             <div key={feature.name} className="flex flex-col bg-laranja p-6 rounded-2xl ">
                                 <div className="mb-6 flex -mt-16 h-16 w-16 mx-auto items-center justify-center rounded-full bg-roxo ring ring-laranja">

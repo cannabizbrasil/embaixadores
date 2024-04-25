@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Hero from '@/components/hero'
+import HeroB from '@/components/heroB'
 import Fature from '@/components/fature'
 import ComoIniciarEmbaixadores from '@/components/comoIniciarEmbaixadores'
 import Produtos from '@/components/produtos'
@@ -23,7 +24,9 @@ export default function Embaixadores() {
             <main
                 className={` ${inter.className}`}
             >
-                <Hero />
+
+                <HeroB />
+                <Fature />
                 <CtaEmbaixadores />
 
                 <ComoIniciarEmbaixadores />

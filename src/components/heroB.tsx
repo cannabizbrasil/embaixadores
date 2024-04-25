@@ -6,11 +6,11 @@ import VideoHome from './videoHome'
 
 
 
-export default function Hero() {
+export default function HeroB() {
     return (
         <div className="relative isolate overflow-hidden bg-roxo">
             <div>
-                <div className="absolute inset-0 overflow-hidden flex items-center justify-center -z-10 mt-[-110vh]">
+                <div className="absolute inset-0 overflow-hidden flex items-center justify-center -z-10 mt-[40vh] lg:mt-0">
                     <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1480" className="absolute stroke-largo fill-none stroke-laranja w-full h-full"
                         aria-hidden="true">
                         <path d="M0,668.12c60.84,0,148.83,24.79,247.5,59.45,69.48,24.4,173.65,71,347.09,201.41,261.29,196.46,244.04,198.33,366.25,275.81,54.32,34.44,253.79,76.66,362.96,2.91,139.82-94.43,156.41-201.66,154.9-312.09-2.1-153.35-61.67-287.6-49.73-405.83,3.97-39.37,30.59-258.58,219.49-393.26C1754.31,21.07,1882.7.5,1980,.5" />
@@ -47,17 +47,7 @@ export default function Hero() {
                             </a>
                         </div>
                     </div>
-                    <div className="mx-auto flex max-w-3xl mt-24  lg:max-w-none lg:flex-none ">
-                        <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                            <Image
-                                src="/pessoa-imagem.png"
-                                alt="App screenshot"
-                                width={1920}
-                                height={1080}
-                                className="w-[32rem] lg:w-[48rem] rounded-md"
-                            />
-                        </div>
-                    </div>
+
                 </div>
                 <VideoHome />
 

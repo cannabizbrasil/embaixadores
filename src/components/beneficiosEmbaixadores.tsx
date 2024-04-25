@@ -61,10 +61,10 @@ export default function BeneficiosEmbaixadores() {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-4xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
-                    <div className="col-span-2 grid grid-cols-1 lg:ml-10 gap-x-16  gap-y-8 text-base leading-7 text-gray-600 sm:grid-cols-2">
+                    <div className="col-span-2 grid grid-cols-1 pl-6 lg:pl-0 lg:ml-10 gap-x-16  gap-y-8 text-base leading-7 text-gray-600 sm:grid-cols-2">
                         {features.map((feature) => (
-                            <div key={feature.name} className="bg-laranja rounded-2xl shadow-sm hover:shadow-2xl p-6 text-roxo  hover:text-verde hover:scale-103">
-                                <div className="relative pl-12 ">
+                            <div key={feature.name} className="bg-laranja rounded-2xl shadow-sm hover:shadow-2xl p-6 text-roxo">
+                                <div className="relative pl-10 ">
                                     <div className="font-semibold">
                                         <div className="absolute -left-12 -top-1 rounded-full bg-white  p-4 text-black text-3xl ring ring-laranja">
                                             <feature.icon className=" h-9 w-9 text-roxo" aria-hidden="true" />

@@ -51,7 +51,7 @@ export default function ComoIniciarEmbaixadores() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         <div>
-                            <p className="mt-24 text-3xl font-bold tracking-tight text-white sm:text-5xl"> INICIE SUA <span className="text-roxo">JORNADA</span> EMPREENDEDORA</p>
+                            <p className="mt-24 text-4xl font-bold tracking-tight text-white sm:text-5xl"> INICIE SUA <span className="text-roxo">JORNADA</span> EMPREENDEDORA</p>
                             <p className="mt-6 text-xl leading-7 text-white">
                                 Conheça as etapas para tornar-se um empreendedor canábico de sucesso.
                             </p>
@@ -63,10 +63,10 @@ export default function ComoIniciarEmbaixadores() {
                             </div>
                         </div>
 
-                        <div className="col-span-2 grid grid-cols-1 lg:ml-16 gap-x-8 gap-y-8 text-base leading-7 text-gray-600 sm:grid-cols-1">
+                        <div className="col-span-2 grid grid-cols-1 lg:ml-16 gap-x-8 pl-4  gap-y-8 text-base leading-7 text-gray-600 sm:grid-cols-1">
                             {features.map((feature) => (
-                                <div key={feature.name} className="bg-roxo rounded-2xl shadow-sm hover:shadow-2xl p-6 text-white  hover:text-verde hover:scale-103">
-                                    <div className="relative pl-14 ">
+                                <div key={feature.name} className="bg-roxo rounded-2xl shadow-sm hover:shadow-2xl p-6 text-white">
+                                    <div className="relative pl-10 ">
                                         <div className="font-semibold">
                                             <h2 className="absolute -left-10 rounded-full bg-laranja p-3 text-black text-3xl my-auto ring ring-roxo ">
                                                 {feature.number}
