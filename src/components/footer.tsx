@@ -56,7 +56,7 @@ const navigation = {
 
 export default function Footer() {
     return (
-        <footer className="bg-black" aria-labelledby="footer-heading">
+        <footer className="bg-roxo" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
@@ -64,10 +64,10 @@ export default function Footer() {
                 <div className="xl:grid xl:grid-cols-2 xl:gap-16">
                     <div className="space-y-8">
                         <Image
-                            className="h-20 w-auto"
+                            className="h-12 w-auto"
                             src="/logotipo-embaixadores.png"
                             alt="Cannamed Logo"
-                            width={400}
+                            width={235}
                             height={62}
                             priority
                         />
@@ -77,11 +77,11 @@ export default function Footer() {
                         </p>
 
                     </div>
-                    <div className="flex space-x-6 mx-auto my-auto">
+                    <div className="flex space-x-6 py-6 lg:py-0 mx-auto my-auto">
                         {navigation.social.map((item) => (
                             <Link key={item.name} href={item.href} className="text-white hover:text-green-300 hover:scale-125 transition duration-700 ease-in-out">
                                 <span className="sr-only">{item.name}</span>
-                                <div className="h-10 w-10">
+                                <div className="h-7 w-7">
                                     <item.icon aria-hidden="true" />
                                 </div>
                             </Link>
