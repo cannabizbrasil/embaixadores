@@ -50,8 +50,8 @@ export default function NavBar() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Link href="#" className="text-sm font-semibold leading-6 text-white">
-                        Log in <span aria-hidden="true">&rarr;</span>
+                    <Link href="#" className="text-md font-semibold leading-6 text-roxo">
+                        Acesse o Curso <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
             </nav>
@@ -96,9 +96,9 @@ export default function NavBar() {
                             <div className="py-6">
                                 <Link
                                     href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50"
+                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-verde"
                                 >
-                                    Log in
+                                    Acesse o Curso <span aria-hidden="true">&rarr;</span>
                                 </Link>
                             </div>
                         </div>
