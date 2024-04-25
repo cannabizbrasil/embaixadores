@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import BotaoComecarEmbaixadores from '@/components/botaoComecarEmbaixadores'
 import Fature from './fature'
