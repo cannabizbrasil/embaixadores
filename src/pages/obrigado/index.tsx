@@ -36,14 +36,14 @@ export default function Obrigado() {
                 <div className="mx-auto max-w-7xl py-16 ">
                     <div className="overflow-hidden bg-black rounded-3xl shadow-2xl">
                         <CldVideoPlayer
-                            id="embaixadores-italo-chamada_khrm7y"
+                            id="video-embaixadores_voyszq"
                             width="500"
-                            height="300"
-                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1714070467/embaixadores-italo-chamada_khrm7y.mp4"
+                            height="282"
+                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1714081549/video-embaixadores_voyszq.mp4"
                             colors={{
-                                accent: '#84caeb', // barrinha que move
-                                base: '#8aef70', // barra inferior
-                                text: '#FFFFFF' // icones
+                                accent: '#871c86', // barrinha que move
+                                base: '#ff9201', // barra inferior
+                                text: '#00ff01' // icones
                             }}
                             logo={{
                                 imageUrl: getCldImageUrl({
@@ -57,27 +57,26 @@ export default function Obrigado() {
                 </div>
                 <div className="mx-auto max-w-4xl ">
 
-                    <div className="mt-10 flex items-center justify-center gap-x-6">
+                    <div className="lg:mt-8 flex items-center justify-center gap-x-8 lg:gap-x-32">
                         <div>
+
                             <Link
-                                href="#formulario"
-                                className="inline-block rounded-md border border-transparent bg-laranja px-8 py-2 text-lg font-medium text-black hover:bg-verde hover:scale-105 transition duration-500 ease-in-out"
-                            >
-                                Iniciar Curso
-                            </Link>
-                        </div>
-                        <div>
-                            <Link
-                                href="#formulario"
-                                className="inline-block rounded-md border border-transparent bg-verde px-8 py-2 text-lg font-medium text-black hover:bg-laranja hover:scale-105 transition duration-500 ease-in-out"
+                                href="https://chat.whatsapp.com/IAAQU949tEsGbi8xMRqIPE"
+                                className="inline-block rounded-md border border-transparent text-center bg-verde px-8 lg:px-16 lg:py-4 text-lg font-medium text-black hover:bg-laranja hover:scale-105 transition duration-500 ease-in-out"
                             >
                                 Grupo WhatsApp
                             </Link>
                         </div>
+                        <div>
+                            <Link
+                                href="https://cannaschool.astronmembers.com/cadastro/1279"
+                                className="inline-block rounded-md border border-transparent text-center bg-laranja px-8 lg:px-16 lg:py-4 text-lg font-medium text-black hover:bg-verde hover:scale-105 transition duration-500 ease-in-out"
+                            >
+                                Iniciar Curso
+                            </Link>
+                        </div>
                     </div>
-                    <h1 className="mt-6 text-xl tracking-tight text-white text-center">
-                        Sua prescrição médica deve ser para os medicamentos, Extrato Concentrado de THCA, Extrato Liofilizado de THCA, Extrato Isolado de THCA.
-                    </h1>
+
                 </div>
                 <div
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"

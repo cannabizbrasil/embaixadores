@@ -1,6 +1,23 @@
 import Image from 'next/image'
 
 const testimonials = [
+
+    {
+        body:
+            (<>
+                Salve Time Cannabiz!🍁
+                <br /><br />
+                Só tenho a agradecer por terem aparecido em minha vida. Hoje eu desfruto de uma qualidade de vida que jamais imaginei um dia e poder levar isso para mais pessoas como embaixadora, é muito gratificante. Já fui muito preconceituosa com cannabis e e hoje faço utilização tratando transtornos psicológicos e físicos. O conhecimento liberta!🙏🏼
+                <br /><br />
+                Tenho uma vida nova e incrível depois de ter conhecido vocês! Gratidão!🙏🏼🍃
+            </>),
+        author: {
+            name: 'Gaia',
+            handle: 'medicinasdegaia',
+            imageUrl:
+                '/gaia.jpg',
+        },
+    },
     {
         body:
             (<>
@@ -19,21 +36,17 @@ const testimonials = [
     {
         body:
             (<>
-                Salve Time Cannabiz!🍁
+                Ser Embaixador Cannabiz é mais do que uma trabalho, é uma missão. É a oportunidade de fazer a diferença na vida das pessoas, facilitando o acesso à medicação transformadora que pode mudar realidades. Sinto-me profundamente honrado por fazer parte dessa comunidade inspiradora, onde o apoio mútuo e o conhecimento compartilhado nos fortalecem.
                 <br /><br />
-                Só tenho a agradecer por terem aparecido em minha vida. Hoje eu desfruto de uma qualidade de vida que jamais imaginei um dia e poder levar isso para mais pessoas como embaixadora, é muito gratificante. Já fui muito preconceituosa com cannabis e e hoje faço utilização tratando transtornos psicológicos e físicos. O conhecimento liberta!🙏🏼
-                <br /><br />
-                Tenho uma vida nova e incrível depois de ter conhecido vocês! Gratidão!🙏🏼🍃
+                Sinto que juntos, contribuímos para um futuro mais promissor e com mais saúde para a sociedade.
             </>),
         author: {
-            name: 'Gaia',
-            handle: 'medicinasdegaia',
+            name: 'Cassiano Santos',
+            handle: 'Empresário',
             imageUrl:
-                '/gaia.jpg',
+                '/cassiano.jpg',
         },
     },
-
-
 ]
 
 
@@ -48,7 +61,7 @@ export default function Depoimentos() {
                         Veja o que dizem nossos embaixadores
                     </p>
                 </div>
-                <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-12 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-12 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {testimonials.map((testimonial) => (
                         <article key={testimonial.author.handle} className="flex flex-col items-start justify-between">
                             <div className="max-w-xl">
