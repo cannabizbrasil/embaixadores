@@ -50,7 +50,7 @@ export default function NavBar() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Link href="#" className="text-md font-semibold leading-6 text-roxo">
+                    <Link href="https://cannaschool.astronmembers.com" className="text-md font-semibold leading-6 text-roxo">
                         Acesse o Curso <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
@@ -95,7 +95,7 @@ export default function NavBar() {
                             </div>
                             <div className="py-6">
                                 <Link
-                                    href="#"
+                                    href="https://cannaschool.astronmembers.com"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-verde"
                                 >
                                     Acesse o Curso <span aria-hidden="true">&rarr;</span>
