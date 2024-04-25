@@ -61,10 +61,10 @@ export default function Footer() {
                 Footer
             </h2>
             <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-                <div className="xl:grid xl:grid-cols-2 xl:gap-16">
+                <div className="xl:grid xl:grid-cols-2 xl:gap-16 ">
                     <div className="space-y-8">
                         <Image
-                            className="h-12 w-auto"
+                            className="mx-auto h-12 w-auto"
                             src="/logotipo-embaixadores.png"
                             alt="Cannamed Logo"
                             width={235}
@@ -77,7 +77,7 @@ export default function Footer() {
                         </p>
 
                     </div>
-                    <div className="flex space-x-6 py-6 lg:py-0 mx-auto my-auto">
+                    <div className="flex space-x-6 py-6 lg:py-0 mx-auto my-auto justify-center">
                         {navigation.social.map((item) => (
                             <Link key={item.name} href={item.href} className="text-white hover:text-green-300 hover:scale-125 transition duration-700 ease-in-out">
                                 <span className="sr-only">{item.name}</span>

@@ -62,7 +62,7 @@ export default function Obrigado() {
 
                             <Link
                                 href="https://chat.whatsapp.com/IAAQU949tEsGbi8xMRqIPE"
-                                className="inline-block rounded-md border border-transparent text-center bg-verde px-8 lg:px-16 lg:py-4 text-lg font-medium text-black hover:bg-laranja hover:scale-105 transition duration-500 ease-in-out"
+                                className="inline-block rounded-md border border-transparent text-center bg-verde px-8 lg:px-16 py-2 lg:py-4 text-lg font-medium text-black hover:bg-laranja hover:scale-105 transition duration-500 ease-in-out"
                             >
                                 Grupo WhatsApp
                             </Link>
@@ -70,7 +70,7 @@ export default function Obrigado() {
                         <div>
                             <Link
                                 href="https://cannaschool.astronmembers.com/cadastro/1279"
-                                className="inline-block rounded-md border border-transparent text-center bg-laranja px-8 lg:px-16 lg:py-4 text-lg font-medium text-black hover:bg-verde hover:scale-105 transition duration-500 ease-in-out"
+                                className="inline-block rounded-md border border-transparent text-center bg-laranja px-8 lg:px-16 py-2 lg:py-4 text-lg font-medium text-black hover:bg-verde hover:scale-105 transition duration-500 ease-in-out"
                             >
                                 Iniciar Curso
                             </Link>
