@@ -29,8 +29,8 @@ export default function CtaEmbaixadores() {
                 </div>
 
             </div>
-            <div className="relative lg:hidden" aria-hidden="true">
-                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-laranja pt-[15%]" />
+            <div className="relative lg:hidden overflow-hidden" aria-hidden="true">
+                <div className="absolute overflow-hidden -inset-x-20 bottom-0 bg-gradient-to-t from-laranja pt-[15%]" />
             </div>
         </>
     )
