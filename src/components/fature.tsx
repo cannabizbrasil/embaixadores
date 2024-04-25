@@ -67,7 +67,7 @@ export default function Fature() {
                 <div className="mx-auto max-w-4xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-azul">COMECE AGORA</h2>
                     <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                        Trazemos uma oportunidade única para quem sempre pensou em <span className="text-verde">empreender no mercado de saúde, qualidade e Cannabis</span>.
+                        Trazemos uma oportunidade única para quem sempre pensou em <span className="text-verde">empreender no mercado de saúde, qualidade de vida e Cannabis</span>.
                     </p>
                     <p className="mt-6 text-2xl leading-8 text-white">
                         Poucas empresas brasileiras sabem o caminho 100% legal para empreender no mercado de Cannabis. Nosso programa de embaixadores é para pessoas que acreditam na cannabis, no seu potencial medicinal e comercial.

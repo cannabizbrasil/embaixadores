@@ -18,10 +18,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Embaixadores() {
     return (
         <div>
-            <Head>
-                <title>Embaixadores</title>
-                <meta name='description' content='Tratamento com Cannabis Medicinal' />
-            </Head>
+
 
             <main
                 className={` ${inter.className}`}
