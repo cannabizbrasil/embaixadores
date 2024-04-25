@@ -15,9 +15,9 @@ export default function VideoHome() {
                             height="300"
                             src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1714070467/embaixadores-italo-chamada_khrm7y.mp4"
                             colors={{
-                                accent: '#84caeb', // barrinha que move
-                                base: '#8aef70', // barra inferior
-                                text: '#FFFFFF' // icones
+                                accent: '#871c86', // barrinha que move
+                                base: '#ff9201', // barra inferior
+                                text: '#00ff01' // icones
                             }}
                             logo={{
                                 imageUrl: getCldImageUrl({
