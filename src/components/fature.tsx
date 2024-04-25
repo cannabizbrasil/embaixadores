@@ -1,4 +1,4 @@
-import { CalendarDaysIcon, CheckBadgeIcon, ClipboardDocumentCheckIcon, InboxIcon, MapIcon, ShoppingCartIcon, TrashIcon, UserIcon, UsersIcon } from '@heroicons/react/24/outline'
+import { CalendarDaysIcon, CheckBadgeIcon, ClipboardDocumentCheckIcon, GlobeAltIcon, HandRaisedIcon, HeartIcon, InboxIcon, MapIcon, ScaleIcon, ShoppingCartIcon, TrashIcon, UserGroupIcon, UserIcon, UserPlusIcon, UsersIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import BotaoComecarEmbaixadores from './botaoComecarEmbaixadores'
 
@@ -10,7 +10,7 @@ const features = [
         href: '#',
         number: '01',
         button: 'Agende sua Consulta',
-        icon: MapIcon,
+        icon: UserGroupIcon,
     },
 
     {
@@ -20,7 +20,7 @@ const features = [
         href: '#',
         number: '03',
         button: 'Anvisa',
-        icon: CheckBadgeIcon,
+        icon: HeartIcon,
     },
     {
         name: 'Influenciadores',
@@ -29,7 +29,7 @@ const features = [
         href: '#',
         number: '04',
         button: 'Saiba onde comprar',
-        icon: UserIcon,
+        icon: UserPlusIcon,
     },
     {
         name: 'Ativistas',
@@ -38,7 +38,7 @@ const features = [
         href: '#',
         number: '04',
         button: 'Saiba onde comprar',
-        icon: UserIcon,
+        icon: GlobeAltIcon,
     },
     {
         name: 'Profissionais da saúde',
@@ -47,7 +47,7 @@ const features = [
         href: '#',
         number: '04',
         button: 'Saiba onde comprar',
-        icon: UserIcon,
+        icon: HandRaisedIcon,
     },
     {
         name: 'Advogados',
@@ -56,7 +56,7 @@ const features = [
         href: '#',
         number: '04',
         button: 'Saiba onde comprar',
-        icon: UserIcon,
+        icon: ScaleIcon,
     },
 ]
 
@@ -74,16 +74,15 @@ export default function Fature() {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                    <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
+                    <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-12 lg:max-w-none lg:gap-y-16 lg:grid-cols-3">
                         {features.map((feature) => (
                             <div key={feature.name} className="flex flex-col bg-laranja p-6 rounded-2xl">
-                                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-roxo">
-                                    <feature.icon className="h-6 w-6 text-verde" />
+                                <div className="mb-6 flex -mt-16 h-16 w-16 mx-auto items-center justify-center rounded-full bg-verde">
+                                    <feature.icon className="h-10 w-10 text-roxo" />
                                 </div>
-                                <div className="flex items-center gap-x-3 text-3xl font-semibold leading-7 text-gray-900">
+                                <div className="flex justify-center gap-x-3 text-3xl font-semibold leading-7 text-gray-900">
                                     {feature.name}
                                 </div>
-
                             </div>
                         ))}
                     </div>

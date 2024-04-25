@@ -30,16 +30,14 @@ const products = [
 
 export default function Produtos() {
     return (
-        <div className="bg-roxo py-24 sm:py-32" id="produtos">
+        <div className="bg-roxo py-24 sm:py-40" id="produtos">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-white">O QUE VOCÊ VAI VENDER</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-verde sm:text-5xl">
                         CONHEÇA NOSSOS PRODUTOS
                     </p>
-                    <p className="mt-6 text-lg leading-8 text-laranja">
-                        Extrações, Tópicos, Óleos, Comestíveis e mais
-                    </p>
+
                 </div>
                 <ul
                     role="list"

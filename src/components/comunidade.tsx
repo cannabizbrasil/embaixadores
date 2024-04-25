@@ -23,7 +23,7 @@ export default function Comunidade() {
                 />
             </div>
             <div className="mx-auto max-w-3xl text-center">
-                <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Conheça nossa Comunidade</h2>
+                <h2 className="text-4xl font-bold tracking-tight text-verde sm:text-6xl">Conheça nossa Comunidade</h2>
                 <p className="text-xl mt-6 tracking-tight text-white">Nossa Comunidade existe para cultivar e disseminar  a cultura canábica, difundir nossas marcas com autenticidade e oferecer nossos produtos à base de Cannabis de alta qualidade.</p>
                 <p className="text-xl mt-6 tracking-tight text-white">
                     Estamos aqui para criar conexões significativas, educar e inspirar, promovendo não apenas nossos produtos, mas também um estilo de vida saudável e equilibrado.

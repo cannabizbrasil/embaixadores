@@ -68,10 +68,10 @@ export default function ComoIniciarEmbaixadores() {
                                 <div key={feature.name} className="bg-roxo rounded-2xl shadow-sm hover:shadow-2xl p-6 text-white  hover:text-verde hover:scale-103">
                                     <div className="relative pl-14 ">
                                         <div className="font-semibold">
-                                            <h2 className="absolute left-0 rounded-full bg-laranja p-2 text-black text-2xl top-1  ">
+                                            <h2 className="absolute -left-10 rounded-full bg-laranja p-3 text-black text-3xl my-auto ring ring-roxo ">
                                                 {feature.number}
                                             </h2>
-                                            <div className="text-white text-xl">
+                                            <div className="text-verde text-2xl">
                                                 {feature.name}
                                             </div>
                                         </div>

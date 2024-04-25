@@ -1,41 +1,41 @@
-import { FingerPrintIcon, ComputerDesktopIcon, BriefcaseIcon, AcademicCapIcon, TrophyIcon, TicketIcon, SwatchIcon, HeartIcon, ArrowRightEndOnRectangleIcon } from '@heroicons/react/24/outline'
+import { FingerPrintIcon, ComputerDesktopIcon, BriefcaseIcon, AcademicCapIcon, TrophyIcon, TicketIcon, SwatchIcon, HeartIcon, ArrowRightEndOnRectangleIcon, CurrencyDollarIcon, ClipboardDocumentListIcon, PhoneIcon, ArrowTopRightOnSquareIcon, MapIcon } from '@heroicons/react/24/outline'
 
 const features = [
     {
-        name: 'Consultas médicas com desconto;',
+        name: 'Desconto em consultas médicas com médicos parceiros;',
         description:
             'Estrutura completa de portfólio de produtos para venda',
-        icon: SwatchIcon,
+        icon: HeartIcon,
     },
     {
         name: 'Estrutura completa de portfólio de produtos para venda;',
         description:
             'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-        icon: AcademicCapIcon,
+        icon: ClipboardDocumentListIcon,
     },
     {
         name: 'Suporte para acolhimento do paciente no início do tratamento;',
         description:
             'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-        icon: HeartIcon,
+        icon: PhoneIcon,
     },
     {
         name: 'Acesso a conteúdos, eventos e promoções exclusivas;',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: ComputerDesktopIcon,
+        icon: ArrowTopRightOnSquareIcon,
     },
     {
-        name: 'Cupom de desconto para seus clientes (produtos Loja Cannabis);',
+        name: 'Cupom de desconto para seus clientes nos produtos da Loja Cannabis;',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: BriefcaseIcon,
+        icon: CurrencyDollarIcon,
     },
     {
-        name: 'Flyers Empresa, brindes exclusivos, adesivo com cupom e desconto de 30% nos produtos para uso pessoal na primeira compra;',
+        name: 'Flyers, brindes exclusivos, adesivos personalizados e cupons de desconto;',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: TicketIcon,
+        icon: MapIcon,
     },
 
 ]
@@ -61,17 +61,18 @@ export default function BeneficiosEmbaixadores() {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-4xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
-                    <div className="col-span-2 grid grid-cols-1 lg:ml-10 gap-x-8 gap-y-8 text-base leading-7 text-gray-600 sm:grid-cols-2">
+                    <div className="col-span-2 grid grid-cols-1 lg:ml-10 gap-x-16  gap-y-8 text-base leading-7 text-gray-600 sm:grid-cols-2">
                         {features.map((feature) => (
                             <div key={feature.name} className="bg-laranja rounded-2xl shadow-sm hover:shadow-2xl p-6 text-roxo  hover:text-verde hover:scale-103">
-                                <div className="relative pl-14 ">
+                                <div className="relative pl-12 ">
                                     <div className="font-semibold">
-                                        <feature.icon className="absolute left-0 top-1 h-7 w-7 " aria-hidden="true" />
-                                        <div className="text-black text-xl">
+                                        <div className="absolute -left-12 -top-1 rounded-full bg-roxo  p-5 text-black text-3xl ">
+                                            <feature.icon className=" h-7 w-7 text-verde" aria-hidden="true" />
+                                        </div>
+                                        <div className="text-black text-2xl">
                                             {feature.name}
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         ))}
