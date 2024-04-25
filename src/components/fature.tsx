@@ -76,9 +76,9 @@ export default function Fature() {
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
                     <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-12 lg:max-w-none lg:gap-y-16 lg:grid-cols-3">
                         {features.map((feature) => (
-                            <div key={feature.name} className="flex flex-col bg-laranja p-6 rounded-2xl">
-                                <div className="mb-6 flex -mt-16 h-16 w-16 mx-auto items-center justify-center rounded-full bg-verde">
-                                    <feature.icon className="h-10 w-10 text-roxo" />
+                            <div key={feature.name} className="flex flex-col bg-laranja p-6 rounded-2xl ">
+                                <div className="mb-6 flex -mt-16 h-16 w-16 mx-auto items-center justify-center rounded-full bg-roxo ring ring-laranja">
+                                    <feature.icon className="h-10 w-10 text-verde" />
                                 </div>
                                 <div className="flex justify-center gap-x-3 text-3xl font-semibold leading-7 text-gray-900">
                                     {feature.name}

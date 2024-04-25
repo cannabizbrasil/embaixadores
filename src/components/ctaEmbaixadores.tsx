@@ -4,7 +4,7 @@ export default function CtaEmbaixadores() {
     return (
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-32 sm:py-48 lg:py-96 lg:px-8">
             <Image
-                src="/embaixadores.jpg"
+                src="/embaixadores2.jpg"
                 alt=""
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
                 width="1920"

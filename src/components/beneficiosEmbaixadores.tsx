@@ -66,8 +66,8 @@ export default function BeneficiosEmbaixadores() {
                             <div key={feature.name} className="bg-laranja rounded-2xl shadow-sm hover:shadow-2xl p-6 text-roxo  hover:text-verde hover:scale-103">
                                 <div className="relative pl-12 ">
                                     <div className="font-semibold">
-                                        <div className="absolute -left-12 -top-1 rounded-full bg-roxo  p-5 text-black text-3xl ">
-                                            <feature.icon className=" h-7 w-7 text-verde" aria-hidden="true" />
+                                        <div className="absolute -left-12 -top-1 rounded-full bg-white  p-4 text-black text-3xl ring ring-laranja">
+                                            <feature.icon className=" h-9 w-9 text-roxo" aria-hidden="true" />
                                         </div>
                                         <div className="text-black text-2xl">
                                             {feature.name}
