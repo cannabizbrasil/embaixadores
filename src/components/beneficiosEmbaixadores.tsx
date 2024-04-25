@@ -56,7 +56,7 @@ export default function BeneficiosEmbaixadores() {
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-40">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-gray-600">SEJA UM EMBAIXADOR</h2>
-                    <p className="mt-2 text-4xl font-bold tracking-tight text-roxo sm:text-5xl">
+                    <p className="mt-2 text-5xl font-bold tracking-tight text-roxo sm:text-5xl">
                         QUAIS SÃO OS BENEFÍCIOS?
                     </p>
                 </div>

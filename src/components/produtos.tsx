@@ -5,25 +5,21 @@ const products = [
         id: '1',
         name: 'COMESTIVEIS',
         imageUrl: '/comestiveis.webp',
-
     },
     {
         id: '2',
         name: 'EXTRAÇÕES',
         imageUrl: '/extracoes.webp',
-
     },
     {
         id: '3',
         name: 'ÓLEOS',
         imageUrl: '/oleos.webp',
-
     },
     {
         id: '4',
         name: 'TÓPICOS',
         imageUrl: '/topicos.webp',
-
     },
 
 ]
@@ -34,14 +30,14 @@ export default function Produtos() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-white">O QUE VOCÊ VAI VENDER</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-verde sm:text-5xl">
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-verde sm:text-5xl">
                         CONHEÇA NOSSOS PRODUTOS
                     </p>
 
                 </div>
                 <ul
                     role="list"
-                    className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
+                    className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
                 >
                     {products.map((product) => (
                         <div key={product.id}>
