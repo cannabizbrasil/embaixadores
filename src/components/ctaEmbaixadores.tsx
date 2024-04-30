@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import BotaoComecarEmbaixadores from './botaoComecarEmbaixadores'
 
 export default function CtaEmbaixadores() {
     return (
@@ -26,6 +27,9 @@ export default function CtaEmbaixadores() {
                 <div className="mx-auto max-w-3xl pt-24 lg:pt-0 text-center">
                     <h2 className="text-4xl font-bold tracking-tight text-roxo sm:text-6xl">Junte-se ao time de empreendedores que está revolucionando o mercado de Cannabis no Brasil.
                     </h2>
+                </div>
+                <div className="flex justify-center pt-12">
+                    <BotaoComecarEmbaixadores />
                 </div>
 
             </div>

@@ -2,19 +2,25 @@
 
 import { CldVideoPlayer, getCldImageUrl } from 'next-cloudinary';
 import 'next-cloudinary/dist/cld-video-player.css';
-import BotaoComecarEmbaixadores from './botaoComecarEmbaixadores';
 
-export default function VideoHome() {
+export default function VideoCannaMakers() {
     return (
-        <div className="">
-            <div className=" ">
-                <div className="mx-auto px-6 max-w-7xl pt-16 ">
-                    <div className="overflow-hidden bg-black rounded-3xl shadow-2xl">
+        <div className="bg-verde">
+            <div className=" py-12">
+                <div className="mx-auto px-6 max-w-7xl py-24 ">
+                    <div className="mx-auto max-w-4xl lg:text-center">
+                        <h2 className="text-base font-semibold leading-7 text-laranja">CANNAMAKERS</h2>
+                        <p className="mt-2 text-4xl font-bold tracking-tight text-roxo sm:text-5xl">
+                            Conheça o curso que vai te tornar um mestre da Medicina Cannabica.
+                        </p>
+
+                    </div>
+                    <div className="overflow-hidden bg-black rounded-3xl shadow-2xl mt-10">
                         <CldVideoPlayer
-                            id="intro-embaixadores_iy9agh"
+                            id="embaixadores-italo-chamada_khrm7y"
                             width="500"
-                            height="280"
-                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1714512633/intro-embaixadores_iy9agh.mp4"
+                            height="300"
+                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1714070467/embaixadores-italo-chamada_khrm7y.mp4"
                             colors={{
                                 accent: '#871c86', // barrinha que move
                                 base: '#ff9201', // barra inferior
@@ -28,9 +34,6 @@ export default function VideoHome() {
                                 onClickUrl: 'https://lojacannabis.com'
                             }}
                         />
-                    </div>
-                    <div className="flex justify-center py-16">
-                        <BotaoComecarEmbaixadores />
                     </div>
                 </div>
             </div>

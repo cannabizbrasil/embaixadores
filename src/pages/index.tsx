@@ -12,6 +12,7 @@ import Depoimentos from '@/components/depoimentos'
 import FormularioEmbaixador from '@/components/formulario'
 import CtaEmbaixadores from '@/components/ctaEmbaixadores'
 import Comunidade from '@/components/comunidade'
+import VideoCannaMakers from '@/components/videoCannaMakers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,7 @@ export default function Embaixadores() {
                 <CtaEmbaixadores />
 
                 <ComoIniciarEmbaixadores />
+                <VideoCannaMakers />
                 <BeneficiosEmbaixadores />
                 <Produtos />
 

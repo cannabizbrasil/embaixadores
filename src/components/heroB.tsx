@@ -33,10 +33,10 @@ export default function HeroB() {
 
                 <NavBar />
 
-                <div className="mx-auto max-w-7xl px-6 pb-24  sm:pb-32 lg:flex lg:px-8 lg:py-32">
+                <div className="mx-auto max-w-7xl px-6 pb-24  sm:pb-28 lg:flex lg:px-8 lg:py-32">
                     <div className="mx-auto max-w-3xl lg:mx-0 pt-24 lg:max-w-3xl lg:flex-shrink-0 lg:pt-8">
 
-                        <h1 className="text-5xl font-bold text-white sm:text-6xl">
+                        <h1 className="text-5xl font-bold text-white leading-snug sm:text-6xl">
                             EMPREENDA NO MERCADO <span className="text-verde">CANÁBICO DE FORMA 100% LEGAL</span>
                         </h1>
                         <p className="mt-6 text-xl leading-8 text-white">

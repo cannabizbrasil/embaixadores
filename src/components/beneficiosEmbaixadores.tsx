@@ -1,4 +1,5 @@
 import { FingerPrintIcon, ComputerDesktopIcon, BriefcaseIcon, AcademicCapIcon, TrophyIcon, TicketIcon, SwatchIcon, HeartIcon, ArrowRightEndOnRectangleIcon, CurrencyDollarIcon, ClipboardDocumentListIcon, PhoneIcon, ArrowTopRightOnSquareIcon, MapIcon } from '@heroicons/react/24/outline'
+import BotaoComecarEmbaixadores from './botaoComecarEmbaixadores'
 
 const features = [
     {
@@ -77,6 +78,9 @@ export default function BeneficiosEmbaixadores() {
                             </div>
                         ))}
                     </div>
+                </div>
+                <div className="flex justify-center pt-16">
+                    <BotaoComecarEmbaixadores />
                 </div>
             </div>
         </div>

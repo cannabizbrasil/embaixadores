@@ -50,7 +50,7 @@ export default function NavBar() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Link href="https://cannaschool.astronmembers.com" className="text-md font-semibold leading-6 text-roxo">
+                    <Link href="https://cannaschool.astronmembers.com" className="text-md font-semibold leading-6 text-branco">
                         Acesse o Curso <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
